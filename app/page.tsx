@@ -154,7 +154,7 @@ export default function Home() {
         <div className="hero-art">
           <div className="floating-word word-one">Grand Larceny!</div>
           <div className="floating-word word-two">Schadenfreude!</div>
-          <img className="cartoon-photo" src="/wagle-reference.webp" alt="Newspaper-cartoon portrait of Swarnim Wagle based on the supplied reference" />
+          <img className="cartoon-photo" src="/wagle-cartoon.png" alt="Newspaper-cartoon portrait of Swarnim Wagle based on the supplied reference" />
         </div>
         <div className="hero-copy">
           <p className="kicker">आधा अर्थशास्त्र, आधा शब्दकोष</p>
@@ -173,7 +173,7 @@ export default function Home() {
 
         <div className="comic-grid">
           <div className={`character-panel ${loading ? "thinking" : ""}`}>
-            <img className="cartoon-photo" src="/wagle-reference.webp" alt="" />
+            <img className="cartoon-photo" src="/wagle-cartoon.png" alt="" />
             <AnimatePresence>
               {loading && (
                 <motion.div className="loading-bubble" initial={{ opacity: 0, scale: .8 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }}>
