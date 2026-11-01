@@ -104,7 +104,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   display: grid; grid-template-columns: 38% 62%; min-height: 410px;
 }
 .character-panel { position: relative; overflow: hidden; border-right: 3px solid var(--ink); }
-.character-panel img { width: 100%; height: 100%; object-fit: contain; object-position: bottom; }
+.character-panel img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; transform: scale(1.18); transform-origin: 50% 18%; }
 .character-panel.thinking img { transform: rotate(-2deg); }
 .loading-bubble {
   position: absolute; top: 28px; right: 18px; width: 210px;
