@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520">
+  <defs>
+    <filter id="newsprint" x="-10%" y="-10%" width="120%" height="120%">
+      <feColorMatrix type="saturate" values="0.25"/>
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0.12 0.28 0.52 0.78 0.96"/>
+        <feFuncG type="discrete" tableValues="0.12 0.28 0.52 0.78 0.96"/>
+        <feFuncB type="discrete" tableValues="0.12 0.28 0.52 0.78 0.96"/>
+      </feComponentTransfer>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 0.82 0 0 0  0 0 0.68 0 0  0 0 0 1 0"/>
+    </filter>
+    <pattern id="paperDots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".75" fill="#292520" opacity=".16"/>
+    </pattern>
+    <clipPath id="portrait">
+      <path d="M24 26h372v468H24z"/>
+    </clipPath>
+  </defs>
+  <rect width="420" height="520" fill="#eee5cb"/>
+  <rect x="24" y="26" width="372" height="468" fill="#fffaf0" stroke="#292520" stroke-width="8"/>
+  <g clip-path="url(#portrait)">
+    <image href="/wagle-reference.webp" x="24" y="26" width="372" height="468" preserveAspectRatio="xMidYMid slice" filter="url(#newsprint)"/>
+    <rect x="24" y="26" width="372" height="468" fill="url(#paperDots)" opacity=".24"/>
+  </g>
+  <g fill="none" stroke="#292520" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="24" y="26" width="372" height="468"/>
+    <path d="M19 454c58-21 94-15 126 6M270 458c43-18 83-18 125-2"/>
+    <path d="M44 465c34-9 67-7 99 7M276 469c33-12 65-9 97 3"/>
+    <path d="M65 106l26-10M66 128l31-9"/>
+  </g>
+  <path fill="#a62d35" d="M34 26h96v34H34z"/>
+  <text x="82" y="50" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="700" fill="#fffaf0">UNOFFICIAL PARODY</text>
+</svg>

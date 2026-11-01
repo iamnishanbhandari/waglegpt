@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f0e6c9"/>
+  <path d="M0 90h1200M0 540h1200" stroke="#26231f" stroke-width="4"/>
+  <text x="600" y="310" text-anchor="middle" font-family="serif" font-size="105" fill="#26231f">WagleGPT</text>
+  <text x="600" y="390" text-anchor="middle" font-family="sans-serif" font-size="38" fill="#a12a32">जटिल कुरा सजिलै बुझौं। सामान्य कुरा जटिल बनाऔं।</text>
+</svg>
